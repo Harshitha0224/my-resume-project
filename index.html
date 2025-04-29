@@ -59,22 +59,22 @@
 
         <div class="section">
             <h2>Profile Summary</h2>
-            <p>I am a dedicated and results-driven individual with a strong academic background and a passion for technology and problem-solving. With a keen interest in software development and continuous learning, I aim to leverage my skills in <span class="highlight">Java, Python, SQL, and data structures</span> to contribute effectively to any team or project.</p>
+            <p>I am a dedicated and results-driven individual with a strong academic background and a passion for technology and problem-solving. With a keen interest in software development and continuous learning, I aim to leverage my skills in <span class="highlight">Python, SQL, and data structures</span> to contribute effectively to any team or project.</p>
         </div>
 
         <div class="section">
             <h2>Education</h2>
             <ul>
-                <li><strong>Bachelor of Technology</strong>, Pragati Engineering College (2019–2023), CGPA: 7.71</li>
-                <li><strong>Intermediate</strong>, Sri Chaitanya Junior College (2017–2019), CGPA: 8.71</li>
-                <li><strong>Secondary School</strong>, Dr. K.K.R Gowtham EM School (2016–2017), GPA: 9.5</li>
+                <li><strong>Bachelor of Technology</strong>, Pragati Engineering College (2019–2023)</li>
+                <li><strong>Intermediate</strong>, Sri Chaitanya Junior College (2017–2019)</li>
+                <li><strong>Secondary School</strong>, Dr. K.K.R Gowtham EM School (2016–2017)</li>
             </ul>
         </div>
 
         <div class="section">
             <h2>Technical Skills</h2>
             <ul>
-                <li><strong>Programming:</strong> Python, Java, SQL</li>
+                <li><strong>Programming:</strong> Python</li>
                 <li><strong>Practices:</strong> Agile, Git</li>
                 <li><strong>Tools:</strong> GitHub, VS Code</li>
                 <li><strong>Databases:</strong> PostgreSQL</li>
@@ -114,6 +114,12 @@
                 <li><strong>Automatic Changeover Switch</strong> – Ensured continuous power by switching between power sources.</li>
             </ul>
         </div>
+        <div class="section">
+            <h2>Personal Projects</h2>
+            <ul>
+                <li><strong>Created a personal resume website using HTML, CSS for the frontend, PostgreSQL for storing form submission data, and Python with Flask for backend development.</li>
+            </ul>
+        </div>
 
         <div class="section">
             <h2>Freelance & Extracurricular</h2>
@@ -135,14 +141,16 @@
         </div>
 
         <div class="section">
-            <h2>Contact Form (Python backend)</h2>
-            <form action="/submit" method="post">
-                <label>Name:</label><br>
-                <input type="text" name="name" required><br>
-                <label>Message:</label><br>
-                <textarea name="message" rows="5" required></textarea><br>
-                <input type="submit" value="Send">
-            </form>
+            <h2>Contact Form</h2>
+	<form action="/submit" method="POST">
+    		<label for="name">Your Name:</label>
+    		<input type="text" id="name" name="name" required><br><br>
+
+   		<label for="message">Your Message:</label><br>
+    		<textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+    		<button type="submit">Submit</button>
+	</form>
         </div>
     </div>
 </body>
