@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #005f73;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #0a9396;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #0a9396;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #007b7f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Resume</h1>
+
+        <div class="section">
+            <h2>Profile Summary</h2>
+            <p>I am a dedicated and results-driven individual with a strong academic background and a passion for technology and problem-solving. With a keen interest in software development and continuous learning, I aim to leverage my skills in <span class="highlight">Java, Python, SQL, and data structures</span> to contribute effectively to any team or project.</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Bachelor of Technology</strong>, Pragati Engineering College (2019–2023), CGPA: 7.71</li>
+                <li><strong>Intermediate</strong>, Sri Chaitanya Junior College (2017–2019), CGPA: 8.71</li>
+                <li><strong>Secondary School</strong>, Dr. K.K.R Gowtham EM School (2016–2017), GPA: 9.5</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Programming:</strong> Python, Java, SQL</li>
+                <li><strong>Practices:</strong> Agile, Git</li>
+                <li><strong>Tools:</strong> GitHub, VS Code</li>
+                <li><strong>Databases:</strong> PostgreSQL</li>
+                <li><strong>OS:</strong> Windows, Linux</li>
+                <li><strong>Other:</strong> APIs, System Design (basic), Data Structures & Algorithms, OOP</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Soft Skills</h2>
+            <ul>
+                <li>Problem-Solving</li>
+                <li>Time Management</li>
+                <li>Multitasking</li>
+                <li>Communication</li>
+                <li>Flexibility</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>DSA (Udemy)</li>
+                <li>Process Mining – Celonis</li>
+                <li>Cyber Security – Palo Alto</li>
+                <li>Python Programming – Coursera</li>
+                <li>Python Bootcamp – Udemy</li>
+                <li>Soft Skills & Personality Development – NPTEL (IIT Kanpur)</li>
+                <li>Verbal Ability – Studypool</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Grid-Connected Wind-Solar Cogeneration</strong> – Designed a hybrid system with voltage-source converters for efficient power use.</li>
+                <li><strong>Automatic Changeover Switch</strong> – Ensured continuous power by switching between power sources.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Freelance & Extracurricular</h2>
+            <ul>
+                <li>Freelance content writer and AI prompt creator for clients in India and the USA.</li>
+                <li>Event Coordinator for Strides, Pragati Engineering College.</li>
+                <li>2nd place in Strides Debugging Event (Mechanical Dept).</li>
+                <li>Gold medals in sports: Kho-Kho, DodgeBall, Running Race.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Languages</h2>
+            <ul>
+                <li>Telugu (Native)</li>
+                <li>English (Fluent)</li>
+                <li>Hindi (Proficient)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Contact Form (Python backend)</h2>
+            <form action="/submit" method="post">
+                <label>Name:</label><br>
+                <input type="text" name="name" required><br>
+                <label>Message:</label><br>
+                <textarea name="message" rows="5" required></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
